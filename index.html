@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Your Website</title>
+</head>
+
+<body>
+    <div class="cover">
+    </div>
+
+    <div class="section">
+        <nav>
+
+            <div class="img">
+            </div>
+            <ul class="list">
+                <li class="item"><a href="#">home</a></li>
+                <li class="item"><a href="#work">work</a></li>
+                <li class="item"><a href="#about">about</a></li>
+                <li class="item"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="main">
+        </section>
+
+        <aside></aside>
+    </div>
+
+
+
+    <div class="section" id="work">
+        <section class="main">
+
+            <!-- 1st row responsive images in background with centered content -->
+
+            <a href="#" class="square raz">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Title it.
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="square dwa">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Title it.
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="square trzy">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Title it.
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <!-- 2nd row responsive images in background with centered content -->
+
+            <a class="square cztery">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Yet another
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="square piec">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Yet another
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a class="square szesc">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Yet another
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </section>
+
+        <nav>
+        </nav>
+
+        <aside>
+            <div class="auto">
+                <h2>Work</h2>
+                <p>Check out out recent works</p>
+            </div>
+            <div class="work-raz">
+                <h2>Title one</h2>
+                <p class="cat">website</p>
+                <p>Lorem witeksum solor domet fajek. Ancient alien space travel choral castle anti-gravity aircraft mystery astronaut space brothers, von Daniken earth mound targeted mutation megoliths foo fighter space travel Vymaanika-Shaastra Mahabharata contend, magnetic current star gates von Daniken space time Giorgio vortex.</p>
+            </div>
+            <div class="work-dwa">
+                <h2>Another work</h2>
+                <p class="cat">branding</p>
+                <p>Lorem witeksum solor domet fajek. Ancient alien space travel choral castle anti-gravity aircraft mystery astronaut space brothers, von Daniken earth mound targeted mutation megoliths foo fighter space travel Vymaanika-Shaastra Mahabharata contend, magnetic current star gates von Daniken space time Giorgio vortex.</p>
+            </div>
+            <div class="work-trzy">
+                <h2>Cool logo</h2>
+                <p class="cat">logo</p>
+                <p>Lorem witeksum solor domet fajek. Ancient alien space travel choral castle anti-gravity aircraft mystery astronaut space brothers, von Daniken earth mound targeted mutation megoliths foo fighter space travel Vymaanika-Shaastra Mahabharata contend, magnetic current star gates von Daniken space time Giorgio vortex.</p>
+            </div>
+            <div class="work-cztery">
+                <h2>autoscanner</h2>
+                <p class="cat">branding</p>
+                <p>Lorem witeksum solor domet fajek</p>
+            </div>
+            <div class="work-piec">
+                <h2>Lorem ipsum?</h2>
+                <p class="cat">fliers</p>
+                <p>Lorem witeksum solor domet fajek</p>
+            </div>
+            <div class="work-szesc">
+                <h2>No no no</h2>
+                <p class="cat">lipa</p>
+                <p>Lorem witeksum solor domet fajek</p>
+            </div>
+        </aside>
+
+
+    </div>
+
+    <div class="section" id="about">
+
+        <section class="main">
+
+            <!-- 1st row responsive images in background with centered content -->
+
+            <div class="square">
+                <div class="content">
+                    <div class="table">
+                        <div class="table-cell">
+                            Yet another
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <nav>
+        </nav>
+
+        <aside>
+            <h2>About</h2>
+            <p>Lorem ipsum bacon meat pork lamb. Ipsum bacon meat pork lamb calzone.</p>
+        </aside>
+
+    </div>
+
+    <div class="section" id="contact">
+        <section class="main"></section>
+        <nav></nav>
+        <aside>
+            <h2>Contact</h2>
+            <p>Lorem ipsum bacon meat pork lamb.</p>
+        </aside>
+    </div>
+
+    <footer class="section">
+        <h2>Footer</h2>
+    </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function () {
+            $('.raz').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-raz').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-raz').css('display', 'none');
+            });
+            $('.dwa').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-dwa').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-dwa').css('display', 'none');
+            });
+            $('.trzy').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-trzy').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-trzy').css('display', 'none');
+            });
+            $('.cztery').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-cztery').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-cztery').css('display', 'none');
+            });
+            $('.piec').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-piec').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-piec').css('display', 'none');
+            });
+            $('.szesc').hover(function () {
+                $('.auto').css('display', 'none');
+                $('.work-szesc').fadeToggle();
+            }, function () {
+                // on mouseout, reset the background colour
+                $('.auto').css('display', 'block');
+                $('.work-szesc').css('display', 'none');
+            });
+
+        });
+
+        //        $('p').on('click', function (e) {
+        //            console.log('PASS!', e.target.id, ' clicked! ')
+        //        })
+    </script>
+
+</body>
+
+</html>

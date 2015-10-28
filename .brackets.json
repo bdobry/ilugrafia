@@ -1,0 +1,16 @@
+{
+    "path": {
+        "sass/style.sass": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": false,
+                "outputStyle": "compact"
+            },
+            "me.drewh.jsbeautify.on_save": false,
+            "linting.collapsed": true,
+            "fonts.fontSize": "13px"
+        }
+    }
+}

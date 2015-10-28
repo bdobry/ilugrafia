@@ -1,0 +1,143 @@
+@import reset
+@import fontgrid
+@import grid
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato:300,400,600);
+
+html,
+body,
+.cover 
+    height: 100%
+
+html
+body 
+    position: relative
+    height: 100%
+    font-size: 16px
+
+body 
+    margin: 0
+    padding: 0
+    background: white
+
+body
+    font-family: 'Lato', sans-serif
+    font-weight: 300
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+.cover 
+    background: url("../img/bg.jpg") no-repeat scroll 100% / cover transparent;
+    background-color: grey
+    position: relative
+    z-index: -1
+*:before,
+*:after 
+    display: none
+:before 
+    content: ''
+    display: block
+    float: left
+    height: 100%
+
+.inside
+    width: 100%
+    background-color: grey
+    display: -webkit-box
+    display: -moz-box
+    display: -ms-flexbox
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-flow: row wrap
+    flex-flow: wrap row
+    justify-content: space-between
+    a.box
+        display: inline-block
+        width: 33%
+        height: 200px
+        background-color: #eaeaea
+        color: red
+        margin: 10px 0px 10px 0
+
+.square
+    display: block
+    float: left
+    position: relative
+    width: 30%
+    padding-bottom: 30% /* = width for a 1:1 aspect ratio */
+    margin: 1.66%
+    background-color: #1E1E1E
+    overflow: hidden
+    
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover /* you change this to "contain" if you don't want the images to be cropped */
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+    color: #fff
+
+.content 
+    position: absolute
+    height: 90% /* = 100% - 2*5% padding */
+    width: 90% /* = 100% - 2*5% padding */
+    padding: 5%
+    .rs
+        width: auto
+        height: auto
+        max-height: 90%
+        max-width: 100%
+
+.table
+    display: table
+    width: 100%
+    height: 100%
+
+.table-cell
+    display: table-cell
+    vertical-align: middle
+    text-align: center
+
+    
+nav
+    padding-left: 95px
+    ul
+        color: black
+        position: fixed
+        top: 150px
+        font-size: $h3-font-size
+        line-height: $h3-line-height
+        margin-top: $h3-margin-top
+    a
+        decoration: none
+        color: black
+    .img
+        position: fixed
+        top: 10px
+        width: 100px
+        height: 100px
+        
+        background-position: center center
+        background-repeat: no-repeat
+        background-size: contain /* you change this to "contain" if you don't want the images to be cropped */
+        background-image: url('../ilulogo.png');
+        color: #fff
+.main
+    //background-color: #8d0909
+#work
+
+.work-raz, .work-dwa, .work-trzy, .work-cztery, .work-piec, .work-szesc
+    display: none
+    .cat
+        background: #96ded3
+        font-variant: small-caps
+        font-weight: 600
+        padding-bottom: 3px
+        font-size: 16px
+        margin-top: 5px
+    h2
+        margin: 0
+#about
+    .square
+        width: 80%
+        padding-bottom: 80%
+
+#footer

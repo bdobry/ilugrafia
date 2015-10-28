@@ -1,0 +1,9 @@
+3.4.18 (Selective Steve)
+55d03cbe8dc4482082815585822d80503557fdcb
+o:Sass::Tree::RootNode:@children[o:Sass::Tree::CommentNode
+:@value[I"/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */:ET:
+@type:normal;[
